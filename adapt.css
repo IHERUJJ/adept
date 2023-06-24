@@ -4,7 +4,7 @@
 
     .header-img {
 
-        height: 118vh;
+        height: 124vh;
     }
 
     .container {
@@ -13,7 +13,7 @@
 
 
  
-    }
+    
     .header-card {
         width: 330px;
         padding-right: -26px;
@@ -80,9 +80,31 @@
   /* Для планшетов */
   @media only screen and (min-width: 601px) and (max-width: 1024px) {
     /* Ваш CSS код для планшетов */
+
+    .header-img {
+
+        height: 124vh;
+    }
+
+
+    .card {
+
+        width: 600px;
+        margin: 30px;
+    }
+
+
   }
   
   /* Для настольных компьютеров */
   @media only screen and (min-width: 1025px) {
     /* Ваш CSS код для настольных компьютеров */
+    .card {
+
+        width: 600px;
+        margin: 30px;
+    }
+    
+
+
   }
